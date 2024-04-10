@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spinning Circle</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="spinBtn" onclick="wheel()">spin</div>
+    <div class="wheel" id="circle" ontransitionend="handleTransitionEnd()">
+      <div class="part red" style="--i:1;--clr:red;"><span>RED</span></div>
+      <div class="part blue" style="--i:2;--clr:blue;"><span>BLUE</span></div>
+      <div class="part green" style="--i:3;--clr:green;"><span>GREEN</span></div>
+      <div class="part black" style="--i:4;--clr:black;"><span>BLACK</span></div>
+      <div class="part yellow" style="--i:5;--clr:yellow;"><span>YELLOW</span></div>
+      <div class="part orange" style="--i:6;--clr:orange;"><span>ORANGE</span></div>
+      <div class="part pink" style="--i:7;--clr:pink;"><span>PINK</span></div>
+      <div class="part brown" style="--i:8;--clr:brown;"><span>BROWN</span></div>
+      <div class="part white" style="--i:9;--clr:white;"><span>WHITE</span></div>
+      <div class="part gray" style="--i:10;--clr:gray;"><span>GRAY</span></div>
+      <div class="part magenta" style="--i:11;--clr:magenta;"><span>MAGENTA</span></div>
+      <div class="part purple" style="--i:12;--clr:purple;"><span>PURPLE</span></div>
+    </div>
+  </div>
+  <div id="message"></div>
+  <script src="script.js"></script>
+</body>
+</html>
